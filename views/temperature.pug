@@ -1,0 +1,14 @@
+extends layout 
+block content 
+    link(rel='stylesheet', href='/stylesheets/style3.css')
+    form(action = "/convert", method = "post")
+        h1 Temperature Conversion 
+        label(for = "temperature") Enter Temparature: 
+        input(type = "number", name = "temperature", required)
+        label(for = "unit") Select Unit: 
+        select(name = "unit")
+            option(value = "celcius") Celsius 
+            option(value = "fahrenheit") Fahrenheit 
+        button(type = "submit") Convert 
+        if(result)
+            p Result: #{result}

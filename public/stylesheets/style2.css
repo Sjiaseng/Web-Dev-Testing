@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	margin:0px;
+}
+
+#myheader {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+nav {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 300px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+}
+
+section {
+	width: 40%;
+	float: left;
+	padding: 15px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+aside {
+	width: 40%;
+	float: right;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	margin: 15px;
+	margin-right: -2px;
+	
+}
+
+img {
+	filter: grayscale(100%);
+	width: 100%;
+}

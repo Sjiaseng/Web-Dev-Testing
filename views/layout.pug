@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title MyApp
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1(id = "pagetitle") My Multi-Page App
+      ul 
+        li: a(href = '/') Home 
+        li: a(href = '/apple_info') Apple Info Exercise 
+        li: a(href = '/temperature') Temperature Exercise
+        li: a(href = '/responsivepage') Responsive Exercise
+    main    
+      block content

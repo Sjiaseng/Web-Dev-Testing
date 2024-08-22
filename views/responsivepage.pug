@@ -1,0 +1,24 @@
+extends layout 
+block content 
+
+    div#header Header Section
+        nav#menu 
+            label#menu-icon &#9776;
+            ul#menulist 
+                li.mylist: a(href = '/') Menu 1
+                li.mylist: a(href = '/') Menu 2
+                li.mylist: a(href = '/') Menu 3
+    div.container
+        div#section1
+            h3 Section 1
+            p Some text 
+        div#section2 
+            h3 Section 2
+            p Some text 
+        div#section3 
+            h3 Secion 3
+            p Some text
+
+        script(src="/javascripts/responsive.js")
+        link(rel='stylesheet', href='/stylesheets/responsive.css')
+
